@@ -1,0 +1,8 @@
+<% provide(:title, "Logged in") %>
+<h1>Congratulations <%= current_user.email %>.. you're logged in!!'</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">    
+    <p>Nothin to do but <%= link_to "logout..", logout_path %></p>    
+  </div>
+</div>
